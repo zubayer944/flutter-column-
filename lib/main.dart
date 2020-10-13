@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: Text("column"),
         ),
-        body: Column(
+        body: Row(
           children: [
             Container(
               height: 200,
@@ -22,15 +22,15 @@ class MyApp extends StatelessWidget {
               color: Colors.orange,
 
             ),
-            SizedBox(height: 7,),
+            SizedBox(width: 7,),
             Container(
               height: 200,
               width: 150,
               color: Colors.orange,
-            ), SizedBox(height: 7,),
+            ), SizedBox(width: 7,),
             Container(
-              height: 150,
-              width: 150,
+              height: 200,
+              width: 90,
               color: Colors.orange,
             ),
           ],
